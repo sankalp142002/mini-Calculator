@@ -10,8 +10,84 @@
 body{
     background-color: #F4F4F4;
     font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    background: url('pexels-madison-inouye-1405773.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 body::-webkit-scrollbar {
     display: none;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 33rem;
+    width: 21rem;
+    border-radius: 35px;
+background: #e0e0e0;
+box-shadow:  17px 17px 39px #a8a8a8,
+             -17px -17px 39px #ffffff;
+    margin: 5rem;
+    margin-bottom: 0rem;
+}
+
+.head{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    width: 30rem;
+    border-radius: 35px;
+    background: #e0e0e0;
+    box-shadow:  17px 17px 39px #a8a8a8,
+                 -17px -17px 39px #ffffff;
+                 font-weight:lighter;
+                 font-size: 13px;
+                 font-style: italic;
+}
+
+input{
+    height: 2.8rem;
+    width: 17rem;
+    margin: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 48px;
+    background: #e0e0e0;
+    box-shadow:  7px 7px 15px #9b9b9b,
+                 -7px -7px 15px #ffffff;
+             border: none;
+             padding: 1.5rem;
+             padding-left: 2rem;
+             font-size: larger;
+             font-weight: 500;
+}
+
+.cont-2{
+    margin: 2rem;
+}
+
+button{
+    height: 3.1rem;
+    width: 3.1rem;
+    margin: 0.4rem;
+    font-size: larger;
+    font-weight: 500;
+    border-radius: 35px;
+    border-radius: 48px;
+    background: #e0e0e0;
+    box-shadow:  7px 7px 15px #9b9b9b,
+                 -7px -7px 15px #ffffff;
+             border: none;
+}
+
+.hg{
+    width: 5rem;
+    height: 2.7rem;
 }
